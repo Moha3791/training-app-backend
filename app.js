@@ -1,5 +1,4 @@
 //Added changes 01/13/2026
-// COUCOU 130126
 //import dependencies modules
 const express = require('express');
 const path = require('path');
@@ -35,6 +34,7 @@ app.listen(port,function(){
 
 //Testtin server
 app.get('/', (req, res)=>{res.send('Hi everyone!');});
+
 
 
 
